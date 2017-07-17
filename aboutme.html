@@ -17,7 +17,7 @@ a{text-align:center;}
 
 <h style="text-align:center;"><h1 style="font-size:300%;"><b>Afroza Akther</h1></b> 
 
-<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="PIC.jpg" alt="Picture of me on stairs" width="250" height="250"> 
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="PIC.jpg" alt="Picture of me on stairs" style="width:250px">
 
 <i><a href="corefourreflection.html"><p style="text-align:center;">Reflection Page for Core4 Topics</a></i>
 
@@ -34,7 +34,17 @@ a{text-align:center;}
 <h2><b>Fun Fact</b></h2>
 <p style="text-align:center;"><p4>I collect water bottles because it's fun, but I almost always end up using the same one.</p4>
 
+<script>
+function bigImg(x) {
+    x.style.height = "400px";
+    x.style.width = "400px";
+}
 
+function normalImg(x) {
+    x.style.height = "250px";
+    x.style.width = "250px";
+}
+</script>
 
 
 </body>
